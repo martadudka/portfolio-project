@@ -3,12 +3,61 @@ font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Mono', monospace;
 */
-h1 {
-    color: aliceblue;
-    font-family: 'Playfair Display', serif;
+
+:root {
+    --primary-color: rgb(76, 181, 178);
+    --secondary-color: rgb(216, 247, 246);
+    --background-color: rgb(248, 246, 254);
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --main-font: 'PT Mono', monospace;
+    --headings-font: 'Playfair Display', serif;
+    --subheading-font: 'Poppins', sans-serif;
+
 }
 
-p {
-    color: aliceblue;
-    font-family: 'Poppins', sans-serif;
+.wrapper {
+    background-color: var(--background-color);
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: var(--headings-font);
+}
+
+h2 {
+    font-size: 40px;
+    font-family: var(--subheading-font);
+}
+
+h3 {
+    font-size: 22px;
+    color: rgb(109, 107, 107);
+    font-family: var(--main-font);
+}
+
+.navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.navigation-links a {
+    font-size: 24px;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: var(--secondary-color);
+}
+
+.about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
