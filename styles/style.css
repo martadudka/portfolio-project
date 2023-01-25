@@ -1,0 +1,14 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Mono', monospace;
+*/
+h1 {
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
