@@ -10,12 +10,13 @@
 
 body {
     background-color: var(--background-color);
+    font-weight: 300;
+
 }
 
 .frontpage-wrap {
     text-align: center;
     margin: 0;
-    font-weight: 300;
     margin-top: 40px;
 }
 
@@ -84,8 +85,8 @@ h3 {
     text-decoration: none;
 }
 
-.projects-wrap {
-    font-weight: 300;
+.projectspage-wrap h3 {
+    font-size: 30px;
 }
 
 .weather-app {
@@ -108,9 +109,39 @@ h3 {
 .project-heading {
     font-size: 38px;
 }
+
 .projects-wrap h3 {
     font-size: 30px;
 }
+
+.about-page {
+    padding: 80px 100px;
+}
+
+.about-page img {
+    border: 1px solid none;
+    border-radius: 20px;
+}
+
+.about-page a {
+    font-size: 24px;
+    border-radius: 4px;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.about-page h3 {
+    font-size: 20px;
+}
+
+.about-page p {
+    font-family: var(--main-font);
+    font-size: 22px;
+    text-align: justify;
+}
+
 .netlify-link {
     border-radius: 4px;
     padding: 20px 30px;
@@ -126,6 +157,16 @@ h3 {
     padding: 20px 47px;
     text-decoration: none;
     background: #171515;
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+
+.about-me-link {
+    border-radius: 4px;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
 }
@@ -161,5 +202,11 @@ h3 {
     .project-heading {
         padding: 0;
         text-align: center;
+    }
+    .about-page {  
+        padding: 20px 40px;
+        margin: 30px 20px;   
+        line-height: 1.3;
+
     }
 }
