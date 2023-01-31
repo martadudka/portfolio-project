@@ -88,11 +88,18 @@ h3 {
     font-size: 30px;
 }
 
-.weather-app {
+.weather-app, .portfolio-project {
     padding: 20px;
+    margin-top: 20px;
 }
 
 .weather-app img {
+    background: var(--secondary-color);
+    border-radius: 4px;
+    padding: 20px 40px;
+}
+
+.portfolio-project img {
     background: var(--secondary-color);
     border-radius: 4px;
     padding: 20px 40px;
@@ -105,8 +112,21 @@ h3 {
     font-size: 22px;
 }
 
+.portfolio-project p {
+    line-height: 1.5;
+    text-align: justify;
+    font-family: var(--main-font);
+    font-size: 22px;
+}
+
 .project-heading {
     font-size: 38px;
+}
+
+.list-item {
+    list-style: inside;
+    margin: 5px;
+    font-size: 18px;
 }
 
 .projects-wrap h3 {
@@ -158,6 +178,15 @@ h3 {
     background: #171515;
     box-shadow: var(--box-shadow);
     color: white;
+}
+
+.project-links {
+    display: flex;
+    justify-content: left;
+}
+
+.project-links a {
+    margin: 10px 40px 0 0;
 }
 
 .about-me-link {
@@ -245,11 +274,18 @@ footer a:hover {
         padding: 0;
         text-align: center;
     }
+    h3 {
+        text-align: center;
+    }
     .about-page {  
         padding: 20px 40px;
         margin: 30px 20px;   
         line-height: 1.3;
     }
+
+    .about-page h2 {
+        text-align: center;
+    } 
     .contact-box {
     display: block;
     text-align: center;
