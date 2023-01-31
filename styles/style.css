@@ -105,6 +105,10 @@ h3 {
     box-shadow: var(--box-shadow);
 }
 
+.projects-content {
+    margin-left: 40px;
+}
+
 .weather-app p {
     line-height: 1.5;
     text-align: justify;
@@ -294,5 +298,5 @@ footer a:hover {
     padding: 20px 30px;
     margin-top: 50px;
     margin-bottom: 50px;
-}
+    }
 }
