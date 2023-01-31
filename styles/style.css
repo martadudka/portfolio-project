@@ -94,15 +94,15 @@ h3 {
 }
 
 .weather-app img {
-    background: var(--secondary-color);
     border-radius: 4px;
-    padding: 20px 40px;
+    padding: 20px 20px;
+    box-shadow: var(--box-shadow);
 }
 
 .portfolio-project img {
-    background: var(--secondary-color);
     border-radius: 4px;
-    padding: 20px 40px;
+    padding: 20px 20px;
+    box-shadow: var(--box-shadow);
 }
 
 .weather-app p {
