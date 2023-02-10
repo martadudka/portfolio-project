@@ -19,6 +19,10 @@ body {
     margin-top: 40px;
 }
 
+.certifications-page-wrap {
+    margin: 40px;
+}
+
 .color-primary {
     color: var(--primary-color);
     font-style: italic;
@@ -84,10 +88,6 @@ h3 {
     text-decoration: none;
 }
 
-.projectspage-wrap h3 {
-    font-size: 30px;
-}
-
 .weather-app, .portfolio-project {
     padding: 20px;
     margin-top: 20px;
@@ -105,8 +105,15 @@ h3 {
     box-shadow: var(--box-shadow);
 }
 
-.projects-content {
+.projects-content, .certifications-content {
     margin-left: 40px;
+}
+
+.certifications-content p {
+    line-height: 1.5;
+    text-align: justify;
+    font-family: var(--main-font);
+    font-size: 22px;
 }
 
 .weather-app p {
@@ -123,7 +130,7 @@ h3 {
     font-size: 22px;
 }
 
-.project-heading {
+.project-heading, .certifications-heading {
     font-size: 38px;
 }
 
@@ -165,7 +172,7 @@ h3 {
     text-align: justify;
 }
 
-.netlify-link {
+.netlify-link, .certificate-link {
     border-radius: 4px;
     padding: 20px 30px;
     text-decoration: none;
@@ -274,7 +281,7 @@ footer a:hover {
     .about-para p {
     font-size: 20px;
     }
-    .project-heading {
+    .project-heading, .certifications-heading {
         padding: 0;
         text-align: center;
     }
