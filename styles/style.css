@@ -88,12 +88,12 @@ h3 {
     text-decoration: none;
 }
 
-.weather-app, .portfolio-project, .travel-website {
+.projects {
     padding: 20px;
     margin-top: 20px;
 }
 
-.weather-app img {
+.projects img {
     border-radius: 4px;
     padding: 20px 20px;
     box-shadow: var(--box-shadow);
@@ -105,11 +105,6 @@ h3 {
     box-shadow: var(--box-shadow);
 }
 
-.travel-website img {
-    border-radius: 4px;
-    padding: 20px 20px;
-    box-shadow: var(--box-shadow);
-}
 
 .projects-content, .certifications-content {
     margin-left: 40px;
@@ -122,7 +117,7 @@ h3 {
     font-size: 22px;
 }
 
-.weather-app p {
+.projects p {
     line-height: 1.5;
     text-align: justify;
     font-family: var(--main-font);
@@ -130,13 +125,6 @@ h3 {
 }
 
 .portfolio-project p {
-    line-height: 1.5;
-    text-align: justify;
-    font-family: var(--main-font);
-    font-size: 22px;
-}
-
-.travel-website p {
     line-height: 1.5;
     text-align: justify;
     font-family: var(--main-font);
